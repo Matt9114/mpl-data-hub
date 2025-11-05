@@ -1,0 +1,78 @@
+/* ===== APP (default layout) – TOKENS (scoped) ===== */
+body.app {
+  --font-sans:'Inter','Segoe UI',system-ui,sans-serif;
+  --text-xs:.75rem; --text-sm:.875rem; --text-base:1rem; --text-xl:1.25rem;
+
+  --app-bg-from:#0f172acc;
+  --app-bg-via:#0d9489e0;
+  --app-bg-to:#4f46e5dd;
+  --app-radial-a:20 184 166;
+  --app-radial-b:99 102 241;
+  --app-radial-c:6 182 212;
+
+
+
+  --sidebar-bg:rgba(30,41,59,.667);
+  --sidebar-shadow: rgba(0,0,0,.63);
+
+  --footer-button-color:#f1f5f9;
+  --footer-button-hover-color:#f1f5f9;
+
+  --header-logo-color:#14f0dee0;
+  --submenu-border-color:#f1f5f9;
+
+  --submenu-link-active-color:#14f0dee0;
+
+  --sidebar-text-color:#f1f5f9;
+  --sidebar-text-sub:#94a3b8;
+  --sidebar-text-muted:#64748b;
+  --sidebar-text-label:#cbd5e1;
+  --sidebar-text-error:#ef4444;
+
+}
+
+/* ===== Utilities ===== */
+.font-app { font-family: var(--font-sans); }
+.bg-app-page {
+  background: linear-gradient(to bottom, var(--app-bg-from), var(--app-bg-via), var(--app-bg-to));
+  color: var(--app-text);
+}
+
+/* ===== Radials & FX (zjemnené) ===== */
+body.app .radial { position:absolute; border-radius:9999px; filter:blur(90px); pointer-events:none; }
+body.app .radial-a{
+  top:-42vh; left:-30vw; width:58rem; height:58rem;
+  background:radial-gradient(closest-side,
+    rgba(var(--app-radial-a) / .18),
+    rgba(var(--app-radial-a) / 0) 66%);
+  animation:app-radial-a 28s ease-in-out infinite; opacity:.65;
+}
+body.app .radial-b{
+  right:-36vw; bottom:-46vh; width:66rem; height:66rem;
+  background:radial-gradient(closest-side,
+    rgba(var(--app-radial-b) / .16),
+    rgba(var(--app-radial-b) / 0) 66%);
+  animation:app-radial-b 32s ease-in-out infinite; opacity:.58;
+}
+body.app .radial-c{
+  left:-18vw; bottom:-28vh; width:52rem; height:52rem;
+  background:radial-gradient(closest-side,
+    rgba(var(--app-radial-c) / .15),
+    rgba(var(--app-radial-c) / 0) 66%);
+  animation:app-radial-c 36s ease-in-out infinite; opacity:.52;
+}
+
+@keyframes app-radial-a { 0%,100%{ transform:translate(0,0) scale(1) } 50%{ transform:translate(14px,-12px) scale(1.03) } }
+@keyframes app-radial-b { 0%,100%{ transform:translate(0,0) scale(1) } 50%{ transform:translate(-12px,14px) scale(1.04) } }
+@keyframes app-radial-c { 0%,100%{ transform:translate(0,0) scale(1) } 50%{ transform:translate(10px,-14px) scale(1.04) } }
+
+/* reduced motion */
+@media (prefers-reduced-motion: reduce){
+  body.app .radial-a, body.app .radial-b, body.app .radial-c { animation:none !important }
+}
+
+/* Voliteľný scrollbar pre celú appku */
+body.app ::-webkit-scrollbar { width: 8px; height: 8px; }
+body.app ::-webkit-scrollbar-thumb { background-color: rgba(203,213,225,.35); border-radius: 6px; }
+body.app ::-webkit-scrollbar-thumb:hover { background-color: rgba(148,163,184,.55); }
+body.app { scrollbar-color: rgba(203,213,225,.35) transparent; scrollbar-width: thin; }

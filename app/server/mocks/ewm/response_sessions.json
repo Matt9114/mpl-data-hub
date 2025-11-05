@@ -1,0 +1,44 @@
+[
+  {
+    "id": 13,
+    "string_id": "/app/con[0]/ses[0]",
+    "gui_status": "open",
+    "session_status": "idle",
+    "allocated_to_worker": 1
+  },
+  {
+    "id": 14,
+    "string_id": "/app/con[0]/ses[1]",
+    "gui_status": "open",
+    "session_status": "idle",
+    "allocated_to_worker": 2
+  },
+  {
+    "id": 15,
+    "string_id": "/app/con[0]/ses[2]",
+    "gui_status": "open",
+    "session_status": "idle",
+    "allocated_to_worker": 3
+  },
+  {
+    "id": 16,
+    "string_id": "/app/con[0]/ses[3]",
+    "gui_status": "open",
+    "session_status": "idle",
+    "allocated_to_worker": 4
+  },
+  {
+    "id": 17,
+    "string_id": "/app/con[0]/ses[4]",
+    "gui_status": "open",
+    "session_status": "idle",
+    "allocated_to_worker": 5
+  },
+  {
+    "id": 18,
+    "string_id": "/app/con[0]/ses[5]",
+    "gui_status": "open",
+    "session_status": "idle",
+    "allocated_to_worker": 6
+  }
+]

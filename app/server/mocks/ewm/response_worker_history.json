@@ -1,0 +1,2109 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2025-08-14T05:05:28.013841",
+    "worker_id": 0,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 2,
+    "timestamp": "2025-08-14T05:05:29.869203",
+    "worker_id": 1,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 3,
+    "timestamp": "2025-08-14T05:05:31.696731",
+    "worker_id": 2,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 4,
+    "timestamp": "2025-08-14T05:05:33.531973",
+    "worker_id": 3,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 5,
+    "timestamp": "2025-08-14T05:05:35.347222",
+    "worker_id": 4,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 6,
+    "timestamp": "2025-08-14T05:05:37.163507",
+    "worker_id": 5,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 7,
+    "timestamp": "2025-08-14T05:06:50.314885",
+    "worker_id": 2,
+    "status": "DIED",
+    "details": "Worker sa sám označil za nefunkčného po fatálnej chybe."
+  },
+  {
+    "id": 8,
+    "timestamp": "2025-08-14T05:06:52.014106",
+    "worker_id": 4,
+    "status": "DIED",
+    "details": "Worker sa sám označil za nefunkčného po fatálnej chybe."
+  },
+  {
+    "id": 9,
+    "timestamp": "2025-08-14T05:06:53.645923",
+    "worker_id": 1,
+    "status": "DIED",
+    "details": "Worker sa sám označil za nefunkčného po fatálnej chybe."
+  },
+  {
+    "id": 10,
+    "timestamp": "2025-08-14T05:06:55.288130",
+    "worker_id": 0,
+    "status": "DIED",
+    "details": "Worker sa sám označil za nefunkčného po fatálnej chybe."
+  },
+  {
+    "id": 11,
+    "timestamp": "2025-08-14T05:06:56.963190",
+    "worker_id": 5,
+    "status": "DIED",
+    "details": "Worker sa sám označil za nefunkčného po fatálnej chybe."
+  },
+  {
+    "id": 12,
+    "timestamp": "2025-08-14T05:08:59.457935",
+    "worker_id": 3,
+    "status": "DIED",
+    "details": "Worker sa sám označil za nefunkčného po fatálnej chybe."
+  },
+  {
+    "id": 13,
+    "timestamp": "2025-08-14T05:12:28.039188",
+    "worker_id": 2,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 14,
+    "timestamp": "2025-08-14T05:12:28.396718",
+    "worker_id": 4,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 15,
+    "timestamp": "2025-08-14T05:12:28.780787",
+    "worker_id": 1,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 16,
+    "timestamp": "2025-08-14T05:12:29.150737",
+    "worker_id": 0,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 17,
+    "timestamp": "2025-08-14T05:12:29.498194",
+    "worker_id": 5,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 18,
+    "timestamp": "2025-08-14T05:12:29.874801",
+    "worker_id": 3,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 19,
+    "timestamp": "2025-08-14T06:11:43.123992",
+    "worker_id": 0,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 20,
+    "timestamp": "2025-08-14T06:11:44.193056",
+    "worker_id": 1,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 21,
+    "timestamp": "2025-08-14T06:11:45.115335",
+    "worker_id": 2,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 22,
+    "timestamp": "2025-08-14T06:11:46.027164",
+    "worker_id": 3,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 23,
+    "timestamp": "2025-08-14T06:11:46.899123",
+    "worker_id": 4,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 24,
+    "timestamp": "2025-08-14T06:11:47.785657",
+    "worker_id": 5,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 25,
+    "timestamp": "2025-08-14T06:16:51.036733",
+    "worker_id": 0,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 26,
+    "timestamp": "2025-08-14T06:16:51.152969",
+    "worker_id": 4,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 27,
+    "timestamp": "2025-08-14T06:16:51.323161",
+    "worker_id": 1,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 28,
+    "timestamp": "2025-08-14T06:16:51.476953",
+    "worker_id": 5,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 29,
+    "timestamp": "2025-08-14T06:16:51.646829",
+    "worker_id": 3,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 30,
+    "timestamp": "2025-08-14T06:16:51.795854",
+    "worker_id": 2,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 31,
+    "timestamp": "2025-08-14T06:17:09.861101",
+    "worker_id": 0,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 32,
+    "timestamp": "2025-08-14T06:17:10.549760",
+    "worker_id": 1,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 33,
+    "timestamp": "2025-08-14T06:17:11.217610",
+    "worker_id": 2,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 34,
+    "timestamp": "2025-08-14T06:17:11.898605",
+    "worker_id": 3,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 35,
+    "timestamp": "2025-08-14T06:17:12.564514",
+    "worker_id": 4,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 36,
+    "timestamp": "2025-08-14T06:17:13.383283",
+    "worker_id": 5,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 37,
+    "timestamp": "2025-08-14T07:47:35.408166",
+    "worker_id": 1,
+    "status": "DIED",
+    "details": "Worker sa sám označil za nefunkčného po fatálnej chybe."
+  },
+  {
+    "id": 38,
+    "timestamp": "2025-08-14T07:47:39.372131",
+    "worker_id": 0,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 39,
+    "timestamp": "2025-08-14T07:47:39.626042",
+    "worker_id": 2,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 40,
+    "timestamp": "2025-08-14T07:47:39.994687",
+    "worker_id": 4,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 41,
+    "timestamp": "2025-08-14T07:47:40.252878",
+    "worker_id": 5,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 42,
+    "timestamp": "2025-08-14T07:47:40.606017",
+    "worker_id": 3,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 43,
+    "timestamp": "2025-08-14T07:47:40.919311",
+    "worker_id": 1,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 44,
+    "timestamp": "2025-08-14T07:48:04.777845",
+    "worker_id": 0,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 45,
+    "timestamp": "2025-08-14T07:48:06.144391",
+    "worker_id": 1,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 46,
+    "timestamp": "2025-08-14T07:48:07.151184",
+    "worker_id": 2,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 47,
+    "timestamp": "2025-08-14T07:48:08.201971",
+    "worker_id": 3,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 48,
+    "timestamp": "2025-08-14T07:48:09.372392",
+    "worker_id": 4,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 49,
+    "timestamp": "2025-08-14T07:48:10.309770",
+    "worker_id": 5,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 50,
+    "timestamp": "2025-08-14T07:50:11.329914",
+    "worker_id": 5,
+    "status": "DIED",
+    "details": "Worker sa sám označil za nefunkčného po fatálnej chybe."
+  },
+  {
+    "id": 51,
+    "timestamp": "2025-08-14T07:50:37.277798",
+    "worker_id": 5,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 52,
+    "timestamp": "2025-08-14T07:50:37.794006",
+    "worker_id": 1,
+    "status": "DIED",
+    "details": "Worker sa sám označil za nefunkčného po fatálnej chybe."
+  },
+  {
+    "id": 53,
+    "timestamp": "2025-08-14T07:51:02.891942",
+    "worker_id": 1,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 54,
+    "timestamp": "2025-08-14T07:52:03.563526",
+    "worker_id": 5,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 55,
+    "timestamp": "2025-08-14T07:52:03.759845",
+    "worker_id": 4,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 56,
+    "timestamp": "2025-08-14T07:52:03.991269",
+    "worker_id": 0,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 57,
+    "timestamp": "2025-08-14T07:52:04.160776",
+    "worker_id": 2,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 58,
+    "timestamp": "2025-08-14T07:52:04.391274",
+    "worker_id": 1,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 59,
+    "timestamp": "2025-08-14T07:52:04.761121",
+    "worker_id": 3,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 60,
+    "timestamp": "2025-08-14T07:52:24.854883",
+    "worker_id": 0,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 61,
+    "timestamp": "2025-08-14T07:52:25.842085",
+    "worker_id": 1,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 62,
+    "timestamp": "2025-08-14T07:52:26.802482",
+    "worker_id": 2,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 63,
+    "timestamp": "2025-08-14T07:52:27.786423",
+    "worker_id": 3,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 64,
+    "timestamp": "2025-08-14T07:52:28.871372",
+    "worker_id": 4,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 65,
+    "timestamp": "2025-08-14T07:52:29.858680",
+    "worker_id": 5,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 66,
+    "timestamp": "2025-08-14T07:57:31.375315",
+    "worker_id": 1,
+    "status": "DIED",
+    "details": "Worker sa sám označil za nefunkčného po fatálnej chybe."
+  },
+  {
+    "id": 67,
+    "timestamp": "2025-08-14T07:57:35.261446",
+    "worker_id": 1,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 68,
+    "timestamp": "2025-08-14T09:09:13.320220",
+    "worker_id": 2,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 69,
+    "timestamp": "2025-08-14T09:09:13.477447",
+    "worker_id": 3,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 70,
+    "timestamp": "2025-08-14T09:09:13.643869",
+    "worker_id": 5,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 71,
+    "timestamp": "2025-08-14T09:09:13.794519",
+    "worker_id": 4,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 72,
+    "timestamp": "2025-08-14T09:09:13.970637",
+    "worker_id": 1,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 73,
+    "timestamp": "2025-08-14T09:09:14.178429",
+    "worker_id": 0,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 74,
+    "timestamp": "2025-08-14T09:53:51.215315",
+    "worker_id": 0,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 75,
+    "timestamp": "2025-08-15T04:35:45.442398",
+    "worker_id": 0,
+    "status": "DIED",
+    "details": "Failed to send initial heartbeat"
+  },
+  {
+    "id": 76,
+    "timestamp": "2025-08-15T04:35:47.710761",
+    "worker_id": 0,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 77,
+    "timestamp": "2025-08-15T04:35:48.426546",
+    "worker_id": 1,
+    "status": "DIED",
+    "details": "Failed to send initial heartbeat"
+  },
+  {
+    "id": 78,
+    "timestamp": "2025-08-15T04:35:50.615992",
+    "worker_id": 1,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 79,
+    "timestamp": "2025-08-15T04:35:51.171504",
+    "worker_id": 2,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 80,
+    "timestamp": "2025-08-15T04:35:52.810050",
+    "worker_id": 3,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 81,
+    "timestamp": "2025-08-15T04:35:54.453311",
+    "worker_id": 4,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 82,
+    "timestamp": "2025-08-15T04:35:56.142057",
+    "worker_id": 5,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 83,
+    "timestamp": "2025-08-15T15:54:49.780092",
+    "worker_id": 0,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 84,
+    "timestamp": "2025-08-15T15:54:50.053912",
+    "worker_id": 1,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 85,
+    "timestamp": "2025-08-15T15:54:50.382668",
+    "worker_id": 2,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 86,
+    "timestamp": "2025-08-15T15:54:50.736263",
+    "worker_id": 3,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 87,
+    "timestamp": "2025-08-15T15:54:51.103037",
+    "worker_id": 5,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 88,
+    "timestamp": "2025-08-15T15:54:51.441168",
+    "worker_id": 4,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 89,
+    "timestamp": "2025-08-15T15:55:16.145969",
+    "worker_id": 0,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 90,
+    "timestamp": "2025-08-15T15:55:17.748241",
+    "worker_id": 1,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 91,
+    "timestamp": "2025-08-15T15:55:19.364931",
+    "worker_id": 2,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 92,
+    "timestamp": "2025-08-15T15:55:20.884039",
+    "worker_id": 3,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 93,
+    "timestamp": "2025-08-15T15:55:21.016260",
+    "worker_id": 1,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 94,
+    "timestamp": "2025-08-15T15:55:21.274069",
+    "worker_id": 2,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 95,
+    "timestamp": "2025-08-15T15:55:21.618167",
+    "worker_id": 0,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 96,
+    "timestamp": "2025-08-15T15:55:21.965104",
+    "worker_id": 3,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 97,
+    "timestamp": "2025-08-15T15:55:22.360456",
+    "worker_id": 4,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 98,
+    "timestamp": "2025-08-15T15:55:23.849131",
+    "worker_id": 5,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 99,
+    "timestamp": "2025-08-15T18:16:35.680765",
+    "worker_id": 4,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 100,
+    "timestamp": "2025-08-15T18:16:35.961290",
+    "worker_id": 5,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 101,
+    "timestamp": "2025-08-15T18:16:59.300261",
+    "worker_id": 0,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 102,
+    "timestamp": "2025-08-15T18:17:00.930604",
+    "worker_id": 1,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 103,
+    "timestamp": "2025-08-15T18:17:02.528980",
+    "worker_id": 2,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 104,
+    "timestamp": "2025-08-15T18:17:04.122109",
+    "worker_id": 3,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 105,
+    "timestamp": "2025-08-15T18:17:05.695414",
+    "worker_id": 4,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 106,
+    "timestamp": "2025-08-15T18:17:07.314939",
+    "worker_id": 5,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 107,
+    "timestamp": "2025-08-15T20:31:05.331026",
+    "worker_id": 2,
+    "status": "DIED",
+    "details": "Worker sa sám označil za nefunkčného po fatálnej chybe."
+  },
+  {
+    "id": 108,
+    "timestamp": "2025-08-15T20:31:10.542370",
+    "worker_id": 2,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 109,
+    "timestamp": "2025-08-15T22:31:02.562365",
+    "worker_id": 0,
+    "status": "DIED",
+    "details": "Worker sa sám označil za nefunkčného po fatálnej chybe."
+  },
+  {
+    "id": 110,
+    "timestamp": "2025-08-15T22:31:07.929162",
+    "worker_id": 0,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 111,
+    "timestamp": "2025-08-16T01:31:24.804294",
+    "worker_id": 1,
+    "status": "DIED",
+    "details": "Worker sa sám označil za nefunkčného po fatálnej chybe."
+  },
+  {
+    "id": 112,
+    "timestamp": "2025-08-16T01:31:30.021196",
+    "worker_id": 1,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 113,
+    "timestamp": "2025-08-16T02:04:44.946894",
+    "worker_id": 1,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 114,
+    "timestamp": "2025-08-16T02:04:45.295693",
+    "worker_id": 2,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 115,
+    "timestamp": "2025-08-16T02:04:45.649146",
+    "worker_id": 3,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 116,
+    "timestamp": "2025-08-16T02:04:46.026955",
+    "worker_id": 0,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 117,
+    "timestamp": "2025-08-16T02:04:46.368004",
+    "worker_id": 4,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 118,
+    "timestamp": "2025-08-16T02:04:46.706549",
+    "worker_id": 5,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 119,
+    "timestamp": "2025-08-16T02:05:09.671714",
+    "worker_id": 0,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 120,
+    "timestamp": "2025-08-16T02:05:11.192357",
+    "worker_id": 1,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 121,
+    "timestamp": "2025-08-16T02:05:12.680527",
+    "worker_id": 2,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 122,
+    "timestamp": "2025-08-16T02:05:14.189753",
+    "worker_id": 3,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 123,
+    "timestamp": "2025-08-16T02:05:15.673573",
+    "worker_id": 4,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 124,
+    "timestamp": "2025-08-16T02:05:17.149153",
+    "worker_id": 5,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 125,
+    "timestamp": "2025-08-16T03:02:42.720507",
+    "worker_id": 1,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 126,
+    "timestamp": "2025-08-16T03:02:43.070007",
+    "worker_id": 3,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 127,
+    "timestamp": "2025-08-16T03:02:43.412661",
+    "worker_id": 5,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 128,
+    "timestamp": "2025-08-16T03:02:43.754237",
+    "worker_id": 0,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 129,
+    "timestamp": "2025-08-16T03:02:44.114888",
+    "worker_id": 2,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 130,
+    "timestamp": "2025-08-16T03:02:44.462439",
+    "worker_id": 4,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 131,
+    "timestamp": "2025-08-16T03:03:09.115284",
+    "worker_id": 0,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 132,
+    "timestamp": "2025-08-16T03:03:10.590155",
+    "worker_id": 1,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 133,
+    "timestamp": "2025-08-16T03:03:12.109925",
+    "worker_id": 2,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 134,
+    "timestamp": "2025-08-16T03:03:13.630433",
+    "worker_id": 3,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 135,
+    "timestamp": "2025-08-16T03:03:15.119732",
+    "worker_id": 4,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 136,
+    "timestamp": "2025-08-16T03:03:16.626016",
+    "worker_id": 5,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 137,
+    "timestamp": "2025-08-16T04:31:54.579410",
+    "worker_id": 1,
+    "status": "DIED",
+    "details": "Worker sa sám označil za nefunkčného po fatálnej chybe."
+  },
+  {
+    "id": 138,
+    "timestamp": "2025-08-16T04:31:59.869243",
+    "worker_id": 0,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 139,
+    "timestamp": "2025-08-16T04:32:00.140520",
+    "worker_id": 2,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 140,
+    "timestamp": "2025-08-16T04:32:00.472629",
+    "worker_id": 3,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 141,
+    "timestamp": "2025-08-16T04:32:00.833610",
+    "worker_id": 4,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 142,
+    "timestamp": "2025-08-16T04:32:01.186811",
+    "worker_id": 5,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 143,
+    "timestamp": "2025-08-16T04:32:01.526283",
+    "worker_id": 1,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 144,
+    "timestamp": "2025-08-16T04:32:27.006728",
+    "worker_id": 0,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 145,
+    "timestamp": "2025-08-16T04:32:28.524442",
+    "worker_id": 1,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 146,
+    "timestamp": "2025-08-16T04:32:30.044509",
+    "worker_id": 2,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 147,
+    "timestamp": "2025-08-16T04:32:31.566117",
+    "worker_id": 3,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 148,
+    "timestamp": "2025-08-16T04:32:33.084601",
+    "worker_id": 4,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 149,
+    "timestamp": "2025-08-16T04:32:34.596709",
+    "worker_id": 5,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 150,
+    "timestamp": "2025-08-16T05:30:59.227784",
+    "worker_id": 2,
+    "status": "DIED",
+    "details": "Worker sa sám označil za nefunkčného po fatálnej chybe."
+  },
+  {
+    "id": 151,
+    "timestamp": "2025-08-16T05:31:04.753302",
+    "worker_id": 2,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 152,
+    "timestamp": "2025-08-16T05:33:06.525641",
+    "worker_id": 4,
+    "status": "DIED",
+    "details": "Worker sa sám označil za nefunkčného po fatálnej chybe."
+  },
+  {
+    "id": 153,
+    "timestamp": "2025-08-16T05:33:11.635256",
+    "worker_id": 4,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 154,
+    "timestamp": "2025-08-16T07:31:00.093227",
+    "worker_id": 0,
+    "status": "DIED",
+    "details": "Worker sa sám označil za nefunkčného po fatálnej chybe."
+  },
+  {
+    "id": 155,
+    "timestamp": "2025-08-16T12:00:22.836903",
+    "worker_id": 1,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 156,
+    "timestamp": "2025-08-16T12:00:23.126256",
+    "worker_id": 4,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 157,
+    "timestamp": "2025-08-16T12:00:23.480439",
+    "worker_id": 2,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 158,
+    "timestamp": "2025-08-16T12:00:23.817481",
+    "worker_id": 3,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 159,
+    "timestamp": "2025-08-16T12:00:24.212828",
+    "worker_id": 5,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 160,
+    "timestamp": "2025-08-16T12:00:24.555081",
+    "worker_id": 0,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 161,
+    "timestamp": "2025-08-16T12:00:48.750531",
+    "worker_id": 0,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 162,
+    "timestamp": "2025-08-16T12:00:50.308010",
+    "worker_id": 1,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 163,
+    "timestamp": "2025-08-16T12:00:51.823363",
+    "worker_id": 2,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 164,
+    "timestamp": "2025-08-16T12:00:53.377993",
+    "worker_id": 3,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 165,
+    "timestamp": "2025-08-16T12:00:54.913519",
+    "worker_id": 4,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 166,
+    "timestamp": "2025-08-16T12:00:56.493486",
+    "worker_id": 5,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 167,
+    "timestamp": "2025-08-16T12:50:50.571542",
+    "worker_id": 5,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 168,
+    "timestamp": "2025-08-16T12:50:50.828647",
+    "worker_id": 0,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 169,
+    "timestamp": "2025-08-16T12:50:51.208909",
+    "worker_id": 1,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 170,
+    "timestamp": "2025-08-16T12:50:51.544995",
+    "worker_id": 2,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 171,
+    "timestamp": "2025-08-16T12:50:51.885880",
+    "worker_id": 3,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 172,
+    "timestamp": "2025-08-16T12:50:52.236551",
+    "worker_id": 4,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 173,
+    "timestamp": "2025-08-16T12:53:59.563466",
+    "worker_id": 0,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 174,
+    "timestamp": "2025-08-16T12:54:01.364089",
+    "worker_id": 1,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 175,
+    "timestamp": "2025-08-16T12:54:03.146912",
+    "worker_id": 2,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 176,
+    "timestamp": "2025-08-16T12:54:04.896916",
+    "worker_id": 3,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 177,
+    "timestamp": "2025-08-16T12:54:06.713658",
+    "worker_id": 4,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 178,
+    "timestamp": "2025-08-16T12:54:08.451681",
+    "worker_id": 5,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 179,
+    "timestamp": "2025-08-16T14:30:15.486470",
+    "worker_id": 1,
+    "status": "DIED",
+    "details": "Worker sa sám označil za nefunkčného po fatálnej chybe."
+  },
+  {
+    "id": 180,
+    "timestamp": "2025-08-16T14:30:20.730788",
+    "worker_id": 1,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 181,
+    "timestamp": "2025-08-16T19:30:29.373109",
+    "worker_id": 5,
+    "status": "DIED",
+    "details": "Worker sa sám označil za nefunkčného po fatálnej chybe."
+  },
+  {
+    "id": 182,
+    "timestamp": "2025-08-16T19:30:34.564664",
+    "worker_id": 5,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 183,
+    "timestamp": "2025-08-16T23:33:21.158455",
+    "worker_id": 0,
+    "status": "DIED",
+    "details": "Worker sa sám označil za nefunkčného po fatálnej chybe."
+  },
+  {
+    "id": 184,
+    "timestamp": "2025-08-16T23:33:26.685069",
+    "worker_id": 1,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 185,
+    "timestamp": "2025-08-16T23:33:26.971349",
+    "worker_id": 2,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 186,
+    "timestamp": "2025-08-16T23:33:27.337306",
+    "worker_id": 3,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 187,
+    "timestamp": "2025-08-16T23:33:27.694867",
+    "worker_id": 5,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 188,
+    "timestamp": "2025-08-16T23:33:28.057141",
+    "worker_id": 4,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 189,
+    "timestamp": "2025-08-16T23:33:28.403815",
+    "worker_id": 0,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 190,
+    "timestamp": "2025-08-16T23:33:54.972711",
+    "worker_id": 0,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 191,
+    "timestamp": "2025-08-16T23:33:56.473905",
+    "worker_id": 1,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 192,
+    "timestamp": "2025-08-16T23:33:58.037442",
+    "worker_id": 2,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 193,
+    "timestamp": "2025-08-16T23:33:59.522348",
+    "worker_id": 3,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 194,
+    "timestamp": "2025-08-16T23:34:01.061437",
+    "worker_id": 4,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 195,
+    "timestamp": "2025-08-16T23:34:02.566843",
+    "worker_id": 5,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 196,
+    "timestamp": "2025-08-17T02:30:17.923304",
+    "worker_id": 0,
+    "status": "DIED",
+    "details": "Worker sa sám označil za nefunkčného po fatálnej chybe."
+  },
+  {
+    "id": 197,
+    "timestamp": "2025-08-17T02:30:22.883735",
+    "worker_id": 0,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 198,
+    "timestamp": "2025-08-17T02:30:23.770508",
+    "worker_id": 2,
+    "status": "DIED",
+    "details": "Worker sa sám označil za nefunkčného po fatálnej chybe."
+  },
+  {
+    "id": 199,
+    "timestamp": "2025-08-17T02:30:28.758408",
+    "worker_id": 2,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 200,
+    "timestamp": "2025-08-17T03:30:54.339573",
+    "worker_id": 1,
+    "status": "DIED",
+    "details": "Worker sa sám označil za nefunkčného po fatálnej chybe."
+  },
+  {
+    "id": 201,
+    "timestamp": "2025-08-17T03:30:58.987029",
+    "worker_id": 1,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 202,
+    "timestamp": "2025-08-17T03:34:01.197297",
+    "worker_id": 4,
+    "status": "DIED",
+    "details": "Worker sa sám označil za nefunkčného po fatálnej chybe."
+  },
+  {
+    "id": 203,
+    "timestamp": "2025-08-17T03:34:06.033319",
+    "worker_id": 4,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 204,
+    "timestamp": "2025-08-17T03:34:06.739944",
+    "worker_id": 3,
+    "status": "DIED",
+    "details": "Worker sa sám označil za nefunkčného po fatálnej chybe."
+  },
+  {
+    "id": 205,
+    "timestamp": "2025-08-17T03:34:11.850969",
+    "worker_id": 3,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 206,
+    "timestamp": "2025-08-17T04:30:35.494533",
+    "worker_id": 2,
+    "status": "DIED",
+    "details": "Worker sa sám označil za nefunkčného po fatálnej chybe."
+  },
+  {
+    "id": 207,
+    "timestamp": "2025-08-17T04:30:40.920478",
+    "worker_id": 2,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 208,
+    "timestamp": "2025-08-17T05:31:06.979197",
+    "worker_id": 1,
+    "status": "DIED",
+    "details": "Worker sa sám označil za nefunkčného po fatálnej chybe."
+  },
+  {
+    "id": 209,
+    "timestamp": "2025-08-17T05:31:11.814969",
+    "worker_id": 1,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 210,
+    "timestamp": "2025-08-17T05:31:12.514754",
+    "worker_id": 0,
+    "status": "DIED",
+    "details": "Worker sa sám označil za nefunkčného po fatálnej chybe."
+  },
+  {
+    "id": 211,
+    "timestamp": "2025-08-17T05:31:17.474874",
+    "worker_id": 0,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 212,
+    "timestamp": "2025-08-17T07:21:32.615288",
+    "worker_id": 4,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 213,
+    "timestamp": "2025-08-17T07:21:32.972636",
+    "worker_id": 3,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 214,
+    "timestamp": "2025-08-17T07:21:33.313817",
+    "worker_id": 2,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 215,
+    "timestamp": "2025-08-17T07:21:33.647936",
+    "worker_id": 1,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 216,
+    "timestamp": "2025-08-17T07:21:33.980196",
+    "worker_id": 0,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 217,
+    "timestamp": "2025-08-17T07:21:34.351836",
+    "worker_id": 5,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 218,
+    "timestamp": "2025-08-18T19:08:14.922631",
+    "worker_id": 0,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 219,
+    "timestamp": "2025-08-18T19:08:16.631209",
+    "worker_id": 1,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 220,
+    "timestamp": "2025-08-18T19:08:18.594053",
+    "worker_id": 2,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 221,
+    "timestamp": "2025-08-18T19:08:20.266286",
+    "worker_id": 3,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 222,
+    "timestamp": "2025-08-18T19:08:22.174919",
+    "worker_id": 4,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 223,
+    "timestamp": "2025-08-18T19:08:24.055971",
+    "worker_id": 5,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 224,
+    "timestamp": "2025-08-18T19:17:41.706415",
+    "worker_id": 0,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 225,
+    "timestamp": "2025-08-18T19:17:42.168501",
+    "worker_id": 1,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 226,
+    "timestamp": "2025-08-18T19:17:42.512853",
+    "worker_id": 2,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 227,
+    "timestamp": "2025-08-18T19:17:42.887076",
+    "worker_id": 3,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 228,
+    "timestamp": "2025-08-18T19:17:43.250170",
+    "worker_id": 4,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 229,
+    "timestamp": "2025-08-18T19:17:43.686275",
+    "worker_id": 5,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 230,
+    "timestamp": "2025-08-19T04:35:32.727445",
+    "worker_id": 0,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 231,
+    "timestamp": "2025-08-19T04:35:33.362091",
+    "worker_id": 1,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 232,
+    "timestamp": "2025-08-19T04:35:34.006113",
+    "worker_id": 2,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 233,
+    "timestamp": "2025-08-19T04:35:34.723377",
+    "worker_id": 3,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 234,
+    "timestamp": "2025-08-19T04:35:35.634147",
+    "worker_id": 4,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 235,
+    "timestamp": "2025-08-19T04:35:36.278517",
+    "worker_id": 5,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 236,
+    "timestamp": "2025-08-19T04:40:13.040908",
+    "worker_id": 0,
+    "status": "STOP_SIGNALED",
+    "details": "Stop requested via API."
+  },
+  {
+    "id": 237,
+    "timestamp": "2025-08-19T04:40:13.617082",
+    "worker_id": 1,
+    "status": "STOP_SIGNALED",
+    "details": "Stop requested via API."
+  },
+  {
+    "id": 238,
+    "timestamp": "2025-08-19T04:40:14.282841",
+    "worker_id": 2,
+    "status": "STOP_SIGNALED",
+    "details": "Stop requested via API."
+  },
+  {
+    "id": 239,
+    "timestamp": "2025-08-19T04:40:14.847593",
+    "worker_id": 3,
+    "status": "STOP_SIGNALED",
+    "details": "Stop requested via API."
+  },
+  {
+    "id": 240,
+    "timestamp": "2025-08-19T04:40:15.492375",
+    "worker_id": 4,
+    "status": "STOP_SIGNALED",
+    "details": "Stop requested via API."
+  },
+  {
+    "id": 241,
+    "timestamp": "2025-08-19T04:40:16.719070",
+    "worker_id": 5,
+    "status": "STOP_SIGNALED",
+    "details": "Stop requested via API."
+  },
+  {
+    "id": 242,
+    "timestamp": "2025-08-19T04:40:19.337739",
+    "worker_id": 0,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 243,
+    "timestamp": "2025-08-19T04:40:19.904552",
+    "worker_id": 1,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 244,
+    "timestamp": "2025-08-19T04:40:20.771211",
+    "worker_id": 2,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 245,
+    "timestamp": "2025-08-19T04:40:21.371216",
+    "worker_id": 3,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 246,
+    "timestamp": "2025-08-19T04:40:22.269614",
+    "worker_id": 4,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 247,
+    "timestamp": "2025-08-19T04:40:22.854370",
+    "worker_id": 5,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 248,
+    "timestamp": "2025-08-19T04:41:51.895843",
+    "worker_id": 0,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 249,
+    "timestamp": "2025-08-19T04:41:52.274575",
+    "worker_id": 1,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 250,
+    "timestamp": "2025-08-19T04:41:52.435071",
+    "worker_id": 2,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 251,
+    "timestamp": "2025-08-19T04:41:52.853844",
+    "worker_id": 3,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 252,
+    "timestamp": "2025-08-19T04:41:53.014633",
+    "worker_id": 4,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 253,
+    "timestamp": "2025-08-19T04:41:53.169829",
+    "worker_id": 5,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 254,
+    "timestamp": "2025-08-19T04:42:13.253738",
+    "worker_id": 0,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 255,
+    "timestamp": "2025-08-19T04:42:14.315226",
+    "worker_id": 1,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 256,
+    "timestamp": "2025-08-19T04:42:15.146446",
+    "worker_id": 2,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 257,
+    "timestamp": "2025-08-19T04:42:16.600862",
+    "worker_id": 3,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 258,
+    "timestamp": "2025-08-19T04:42:17.404248",
+    "worker_id": 4,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 259,
+    "timestamp": "2025-08-19T04:42:19.059657",
+    "worker_id": 5,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 260,
+    "timestamp": "2025-08-19T04:57:11.937399",
+    "worker_id": 0,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 261,
+    "timestamp": "2025-08-19T04:57:12.114953",
+    "worker_id": 1,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 262,
+    "timestamp": "2025-08-19T04:57:12.538009",
+    "worker_id": 2,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 263,
+    "timestamp": "2025-08-19T04:57:12.991009",
+    "worker_id": 3,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 264,
+    "timestamp": "2025-08-19T04:57:13.154807",
+    "worker_id": 4,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 265,
+    "timestamp": "2025-08-19T04:57:13.325792",
+    "worker_id": 5,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 266,
+    "timestamp": "2025-08-19T11:06:39.122560",
+    "worker_id": 0,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 267,
+    "timestamp": "2025-08-19T11:06:40.035798",
+    "worker_id": 1,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 268,
+    "timestamp": "2025-08-19T11:06:41.426211",
+    "worker_id": 2,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 269,
+    "timestamp": "2025-08-19T11:06:42.494759",
+    "worker_id": 3,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 270,
+    "timestamp": "2025-08-19T11:06:43.342341",
+    "worker_id": 4,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 271,
+    "timestamp": "2025-08-19T11:06:44.662812",
+    "worker_id": 5,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 272,
+    "timestamp": "2025-08-19T11:08:03.541070",
+    "worker_id": 0,
+    "status": "STOP_SIGNALED",
+    "details": "Stop requested via API."
+  },
+  {
+    "id": 273,
+    "timestamp": "2025-08-19T11:08:03.951459",
+    "worker_id": 1,
+    "status": "STOP_SIGNALED",
+    "details": "Stop requested via API."
+  },
+  {
+    "id": 274,
+    "timestamp": "2025-08-19T11:08:04.662609",
+    "worker_id": 2,
+    "status": "STOP_SIGNALED",
+    "details": "Stop requested via API."
+  },
+  {
+    "id": 275,
+    "timestamp": "2025-08-19T11:08:05.126620",
+    "worker_id": 3,
+    "status": "STOP_SIGNALED",
+    "details": "Stop requested via API."
+  },
+  {
+    "id": 276,
+    "timestamp": "2025-08-19T11:08:05.570435",
+    "worker_id": 4,
+    "status": "STOP_SIGNALED",
+    "details": "Stop requested via API."
+  },
+  {
+    "id": 277,
+    "timestamp": "2025-08-19T11:08:06.017778",
+    "worker_id": 5,
+    "status": "STOP_SIGNALED",
+    "details": "Stop requested via API."
+  },
+  {
+    "id": 278,
+    "timestamp": "2025-08-19T11:08:22.940903",
+    "worker_id": 0,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 279,
+    "timestamp": "2025-08-19T11:08:23.551354",
+    "worker_id": 1,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 280,
+    "timestamp": "2025-08-19T11:08:24.704558",
+    "worker_id": 2,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 281,
+    "timestamp": "2025-08-19T11:08:25.322074",
+    "worker_id": 3,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 282,
+    "timestamp": "2025-08-19T11:08:26.207939",
+    "worker_id": 4,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 283,
+    "timestamp": "2025-08-19T11:08:27.362500",
+    "worker_id": 5,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 284,
+    "timestamp": "2025-08-19T12:06:55.064426",
+    "worker_id": 1,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 285,
+    "timestamp": "2025-08-19T12:06:55.336685",
+    "worker_id": 0,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 286,
+    "timestamp": "2025-08-19T12:06:55.534353",
+    "worker_id": 3,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 287,
+    "timestamp": "2025-08-19T12:06:55.737503",
+    "worker_id": 2,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 288,
+    "timestamp": "2025-08-19T12:06:55.910717",
+    "worker_id": 5,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 289,
+    "timestamp": "2025-08-19T12:06:56.126043",
+    "worker_id": 4,
+    "status": "STOPPED",
+    "details": "Reset po páde SAP GUI"
+  },
+  {
+    "id": 290,
+    "timestamp": "2025-08-19T12:07:17.478217",
+    "worker_id": 0,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 291,
+    "timestamp": "2025-08-19T12:07:18.238095",
+    "worker_id": 1,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 292,
+    "timestamp": "2025-08-19T12:07:19.225714",
+    "worker_id": 2,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 293,
+    "timestamp": "2025-08-19T12:07:19.947767",
+    "worker_id": 3,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 294,
+    "timestamp": "2025-08-19T12:07:20.929186",
+    "worker_id": 4,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 295,
+    "timestamp": "2025-08-19T12:07:22.208979",
+    "worker_id": 5,
+    "status": "STARTED",
+    "details": null
+  },
+  {
+    "id": 296,
+    "timestamp": "2025-08-19T17:18:16.858164",
+    "worker_id": 0,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 297,
+    "timestamp": "2025-08-19T17:18:17.180792",
+    "worker_id": 1,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 298,
+    "timestamp": "2025-08-19T17:18:17.524322",
+    "worker_id": 2,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 299,
+    "timestamp": "2025-08-19T17:18:17.853476",
+    "worker_id": 3,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 300,
+    "timestamp": "2025-08-19T17:18:18.176393",
+    "worker_id": 4,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  },
+  {
+    "id": 301,
+    "timestamp": "2025-08-19T17:18:18.497934",
+    "worker_id": 5,
+    "status": "STOPPED",
+    "details": "System shutdown"
+  }
+]

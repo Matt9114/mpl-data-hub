@@ -1,0 +1,207 @@
+/* app/assets/css/login.css */
+/* ======================
+   LOGIN – TOKENS (scoped)
+   ====================== */
+body.login {
+  /* Font & typografia */
+  --font-sans:'Inter','Segoe UI',system-ui,sans-serif;
+  --text-xs:.75rem; --text-sm:.875rem; --text-base:1rem; --text-xl:1.25rem;
+
+  /* Pozadie (gradient) */
+  --color-bg-from:#0f172af3;
+  --color-bg-via:#0d9489f5;
+  --color-bg-to:#4f46e5;
+
+  /* Karta */
+  --color-card-bg: rgba(30,41,59,.667);
+  --color-card-border:#334155;
+  --color-card-shadow: rgba(0,0,0,.63);
+
+  /* Radials (RGB) */
+  --radial-a-rgb:20 184 166;
+  --radial-b-rgb:99 102 241;
+  --radial-c-rgb:6 182 212;
+
+  /* 3D sieť */
+  --color-ok:#22c55e; --color-warn:#f59e0b; --color-err:#ef4444;
+  --color-edge-a:#14b8a6; --color-edge-b:#6366f1; --color-packet:#ffffff;
+
+  /* Texty */
+  --color-text-main:#f1f5f9;
+  --color-text-sub:#94a3b8;
+  --color-text-muted:#64748b;
+  --color-text-label:#cbd5e1;
+  --color-text-error:#ef4444;
+
+  /* Inputy */
+  --color-input-bg: rgba(15,23,42,.5);
+  --color-input-border:#475569;
+  --color-input-focus:#14b8a6;
+  --color-input-ring: rgba(20,184,165,.066);
+
+  /* Tlačidlá a logo */
+  --color-btn-gradient-from:#14b8a6;
+  --color-btn-gradient-to:#4f46e5;
+  --color-btn-ring:#4f46e5;
+  --color-logo-from:#0d9488;
+  --color-logo-to:#4f46e5;
+}
+
+/* Mobilné úpravy len pre login */
+@media (max-width:640px){
+  body.login { --text-xl:1.125rem; }
+}
+
+/* ======================
+   LOGIN – COMPONENTS
+   ====================== */
+.btn {
+  @apply relative inline-flex items-center justify-center rounded-xl font-semibold
+         transition duration-200 select-none
+         focus:outline-none focus-visible:ring-0
+         disabled:opacity-50 disabled:cursor-not-allowed;
+  line-height: 1.1;
+  letter-spacing: 0;
+}
+.btn-sm { @apply h-10 px-3.5; }
+.btn-md { @apply h-14 px-4; }
+.btn-lg { @apply h-16 px-5; }
+
+.btn-primary {
+  @apply text-white shadow-md;
+  background-image: linear-gradient(
+    90deg,
+    var(--color-btn-gradient-from) 0%,
+    var(--color-btn-gradient-to) 100%
+  );
+  font-size: var(--text-base);
+}
+.btn-primary:hover {
+  box-shadow:
+    0 0 12px rgba(20, 184, 166, 0.45),
+    0 0 16px rgba(79, 70, 229, 0.45);
+}
+.btn-primary:focus-visible {
+  box-shadow:
+    0 0 0 3px rgba(20, 184, 166, 0.5),
+    0 0 0 5px rgba(79, 70, 229, 0.45);
+}
+.btn-primary:active {
+  box-shadow:
+    0 0 8px rgba(20, 184, 166, 0.4),
+    0 0 10px rgba(79, 70, 229, 0.4);
+}
+
+.btn-secondary {
+  @apply border shadow-sm;
+  background: rgba(51,65,85,0.9);
+  border-color: var(--color-card-border);
+  color: var(--color-text-main);
+  font-size: var(--text-sm);
+}
+.btn-secondary:hover {
+  background: rgba(51,65,85,0.96);
+  box-shadow: 0 0 8px rgba(148,163,184,0.35);
+}
+.btn-secondary:active {
+  box-shadow: 0 0 4px rgba(148,163,184,0.3);
+}
+
+.btn-icon {
+  @apply inline-flex items-center justify-center rounded-lg transition-colors;
+  color: var(--color-text-muted);
+}
+.btn-icon:hover { color: var(--color-text-main); }
+
+/* ======================
+   LOGIN – UTILITIES
+   ====================== */
+.bg-login-page {
+  background: linear-gradient(to bottom,
+    var(--color-bg-from),
+    var(--color-bg-via),
+    var(--color-bg-to));
+}
+.font-login { font-family: var(--font-sans); }
+.text-login-main  { color: var(--color-text-main); }
+.text-login-sub   { color: var(--color-text-sub); }
+.text-login-muted { color: var(--color-text-muted); }
+.text-login-label { color: var(--color-text-label); }
+.text-login-error { color: var(--color-text-error); }
+.card-login { background: var(--color-card-bg); border:1px solid var(--color-card-border); box-shadow:0 10px 25px var(--color-card-shadow); }
+.logo-tile { background: linear-gradient(to bottom right,var(--color-logo-from),var(--color-logo-to)); border:1px solid var(--color-card-border); }
+.input-login { background:var(--color-input-bg); border:1px solid var(--color-input-border); color:var(--color-text-main); font-size:var(--text-base); --tw-ring-color:var(--color-input-ring); }
+.link-grad-underline { position:relative; }
+.link-grad-underline::after{
+  content:"";
+  position:absolute;
+  left:0; right:0; bottom:-2px;
+  height:2px; border-radius:9999px;
+  background:linear-gradient(to right,var(--color-btn-gradient-from),var(--color-btn-gradient-to));
+  transform-origin:left;
+  transform:scaleX(0);
+  transition:transform .2s;
+}
+.link-grad-underline:hover::after{ transform:scaleX(1); }
+
+/* ======================
+   LOGIN – RADIALS & FX
+   ====================== */
+body.login .radial{ position:absolute; border-radius:9999px; filter:blur(80px); pointer-events:none }
+body.login .radial-a{
+  top:-40vh; left:-30vw; width:55rem; height:55rem;
+  background:radial-gradient(closest-side,
+    rgba(var(--radial-a-rgb) / .22),
+    rgba(var(--radial-a-rgb) / 0) 65%);
+  animation:login-radial-drift-a 24s ease-in-out infinite; opacity:.7
+}
+body.login .radial-b{
+  right:-35vw; bottom:-45vh; width:62rem; height:62rem;
+  background:radial-gradient(closest-side,
+    rgba(var(--radial-b-rgb) / .20),
+    rgba(var(--radial-b-rgb) / 0) 65%);
+  animation:login-radial-drift-b 28s ease-in-out infinite; opacity:.6
+}
+body.login .radial-c{
+  left:-18vw; bottom:-30vh; width:50rem; height:50rem;
+  background:radial-gradient(closest-side,
+    rgba(var(--radial-c-rgb) / .18),
+    rgba(var(--radial-c-rgb) / 0) 65%);
+  animation:login-radial-drift-c 32s ease-in-out infinite; opacity:.55
+}
+
+@keyframes login-radial-drift-a{ 0%,100%{ transform:translate(0,0) scale(1) } 50%{ transform:translate(18px,-14px) scale(1.04) } }
+@keyframes login-radial-drift-b{ 0%,100%{ transform:translate(0,0) scale(1) } 50%{ transform:translate(-16px,16px) scale(1.05) } }
+@keyframes login-radial-drift-c{ 0%,100%{ transform:translate(0,0) scale(1) } 50%{ transform:translate(12px,-18px) scale(1.05) } }
+
+/* ======================
+   LOGIN – FORMS
+   ====================== */
+body.login input,
+body.login input::placeholder{ font-size:var(--text-base); line-height:1.5; }
+
+body.login input::placeholder { color:#94a3b8; opacity:.95; }
+
+body.login input:-webkit-autofill,
+body.login input:-webkit-autofill:hover,
+body.login input:-webkit-autofill:focus,
+body.login input:-webkit-autofill:active{
+  -webkit-text-fill-color:var(--color-text-main) !important;
+  -webkit-box-shadow:0 0 0 1000px var(--color-input-bg) inset !important;
+  transition:background-color 5000s ease-in-out 0s
+}
+
+/* Footer – iOS safe area len login */
+body.login footer { padding-bottom: max(0.75rem, env(safe-area-inset-bottom)); }
+
+/* Reduced motion len login */
+@media (prefers-reduced-motion: reduce){
+  body.login .radial-a, body.login .radial-b, body.login .radial-c { animation:none !important }
+}
+
+/* Transition helpery len login */
+body.login .fade-enter-active, 
+body.login .fade-leave-active { transition: opacity .18s ease; }
+body.login .fade-enter-from, 
+body.login .fade-leave-to { opacity: 0; }
+

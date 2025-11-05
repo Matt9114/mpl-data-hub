@@ -1,0 +1,4457 @@
+{
+  "batch_id": "b97c15d4-eb58-4f19-b299-1c5f3070cf80",
+  "items": [
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:02.875712Z",
+      "entity": "task",
+      "entity_id": "all_bins_sk_01",
+      "event": "TASK_CLAIMED",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "current_retry": 0
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:04.168610Z",
+      "entity": "task",
+      "entity_id": "all_bins_sk_02",
+      "event": "TASK_CLAIMED",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "current_retry": 0
+      }
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:00:04.168610Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[5]",
+      "event": "BUSY",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 5
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:04.440308Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[5]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "busy"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:04.784271Z",
+      "entity": "task",
+      "entity_id": "all_bins_sk_01",
+      "event": "STAGE_ENTER",
+      "stage": "SAP_EXPORT",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:05.227481Z",
+      "entity": "task",
+      "entity_id": "binsorting_sk_01",
+      "event": "TASK_CLAIMED",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "current_retry": 0
+      }
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:00:05.489068Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[4]",
+      "event": "BUSY",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 4
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:05.740476Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[4]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "busy"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:05.991032Z",
+      "entity": "task",
+      "entity_id": "binsorting_sk_02",
+      "event": "TASK_CLAIMED",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "current_retry": 0
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:06.093219Z",
+      "entity": "task",
+      "entity_id": "all_bins_sk_02",
+      "event": "STAGE_ENTER",
+      "stage": "SAP_EXPORT",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:00:06.529435Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[2]",
+      "event": "BUSY",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 2
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:06.777151Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[2]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "busy"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:07.042851Z",
+      "entity": "task",
+      "entity_id": "dtln_psa",
+      "event": "TASK_CLAIMED",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "current_retry": 0
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:07.131118Z",
+      "entity": "task",
+      "entity_id": "binsorting_sk_01",
+      "event": "STAGE_ENTER",
+      "stage": "SAP_EXPORT",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:00:07.307147Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[3]",
+      "event": "BUSY",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 3
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:07.566741Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[3]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "busy"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:07.833571Z",
+      "entity": "task",
+      "entity_id": "fix_bins_sk_01",
+      "event": "TASK_CLAIMED",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "current_retry": 0
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:07.930846Z",
+      "entity": "task",
+      "entity_id": "binsorting_sk_02",
+      "event": "STAGE_ENTER",
+      "stage": "SAP_EXPORT",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:00:08.358453Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "BUSY",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 1
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:08.618687Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "busy"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:08.953617Z",
+      "entity": "task",
+      "entity_id": "dtln_psa",
+      "event": "STAGE_ENTER",
+      "stage": "SAP_EXPORT",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:00:09.131270Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[0]",
+      "event": "BUSY",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 0
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:09.388964Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[0]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "busy"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:09.737201Z",
+      "entity": "task",
+      "entity_id": "fix_bins_sk_01",
+      "event": "STAGE_ENTER",
+      "stage": "SAP_EXPORT",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:14.974772Z",
+      "entity": "task",
+      "entity_id": "binsorting_sk_02",
+      "event": "STAGE_OK",
+      "stage": "SAP_EXPORT",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:15.317274Z",
+      "entity": "task",
+      "entity_id": "binsorting_sk_02",
+      "event": "STAGE_ENTER",
+      "stage": "EXCEL_CLEANUP",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:15.356573Z",
+      "entity": "task",
+      "entity_id": "all_bins_sk_02",
+      "event": "STAGE_OK",
+      "stage": "SAP_EXPORT",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:15.699281Z",
+      "entity": "task",
+      "entity_id": "all_bins_sk_02",
+      "event": "STAGE_ENTER",
+      "stage": "EXCEL_CLEANUP",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:21.351494Z",
+      "entity": "task",
+      "entity_id": "binsorting_sk_02",
+      "event": "STAGE_OK",
+      "stage": "EXCEL_CLEANUP",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:21.420622Z",
+      "entity": "task",
+      "entity_id": "all_bins_sk_02",
+      "event": "STAGE_OK",
+      "stage": "EXCEL_CLEANUP",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:21.691618Z",
+      "entity": "task",
+      "entity_id": "binsorting_sk_02",
+      "event": "STAGE_ENTER",
+      "stage": "DATA_UPLOAD",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:21.766453Z",
+      "entity": "task",
+      "entity_id": "all_bins_sk_02",
+      "event": "STAGE_ENTER",
+      "stage": "DATA_UPLOAD",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:22.095398Z",
+      "entity": "task",
+      "entity_id": "dtln_psa",
+      "event": "STAGE_OK",
+      "stage": "SAP_EXPORT",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:22.447356Z",
+      "entity": "task",
+      "entity_id": "dtln_psa",
+      "event": "STAGE_ENTER",
+      "stage": "EXCEL_CLEANUP",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:26.419451Z",
+      "entity": "task",
+      "entity_id": "binsorting_sk_02",
+      "event": "STAGE_OK",
+      "stage": "DATA_UPLOAD",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:26.520301Z",
+      "entity": "task",
+      "entity_id": "all_bins_sk_02",
+      "event": "STAGE_OK",
+      "stage": "DATA_UPLOAD",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "task_history",
+      "ts": "2025-08-17T07:00:27.502303Z",
+      "entity": "task",
+      "entity_id": "3",
+      "event": "done",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "end_time": "2025-08-17T07:00:27.502303",
+        "task_type": "binsorting_sk_02",
+        "worker_id": 3,
+        "history_id": 1509,
+        "start_time": "2025-08-17T07:00:05.316511"
+      }
+    },
+    {
+      "source": "task_history",
+      "ts": "2025-08-17T07:00:27.585325Z",
+      "entity": "task",
+      "entity_id": "4",
+      "event": "done",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "end_time": "2025-08-17T07:00:27.585325",
+        "task_type": "all_bins_sk_02",
+        "worker_id": 4,
+        "history_id": 1507,
+        "start_time": "2025-08-17T07:00:03.488751"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:27.669876Z",
+      "entity": "task",
+      "entity_id": "binsorting_sk_02",
+      "event": "TASK_DONE",
+      "stage": null,
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:27.754425Z",
+      "entity": "task",
+      "entity_id": "all_bins_sk_02",
+      "event": "TASK_DONE",
+      "stage": null,
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:28.155226Z",
+      "entity": "task",
+      "entity_id": "dtln_psa",
+      "event": "STAGE_OK",
+      "stage": "EXCEL_CLEANUP",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:28.519830Z",
+      "entity": "task",
+      "entity_id": "dtln_psa",
+      "event": "STAGE_ENTER",
+      "stage": "DATA_UPLOAD",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:00:28.572337Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[3]",
+      "event": "IDLE",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 3
+      }
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:00:28.657180Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[4]",
+      "event": "IDLE",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 4
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:29.257132Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[3]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "idle"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:29.357187Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[4]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "idle"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:31.522140Z",
+      "entity": "task",
+      "entity_id": "fix_bins_sk_02",
+      "event": "TASK_CLAIMED",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "current_retry": 0
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:32.316981Z",
+      "entity": "task",
+      "entity_id": "kit_comp",
+      "event": "TASK_CLAIMED",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "current_retry": 0
+      }
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:00:32.834379Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[4]",
+      "event": "BUSY",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 4
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:33.095896Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[4]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "busy"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:33.447711Z",
+      "entity": "task",
+      "entity_id": "fix_bins_sk_02",
+      "event": "STAGE_ENTER",
+      "stage": "SAP_EXPORT",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:00:33.612241Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[3]",
+      "event": "BUSY",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 3
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:33.918032Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[3]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "busy"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:34.014322Z",
+      "entity": "task",
+      "entity_id": "dtln_psa",
+      "event": "STAGE_OK",
+      "stage": "DATA_UPLOAD",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:34.255787Z",
+      "entity": "task",
+      "entity_id": "kit_comp",
+      "event": "STAGE_ENTER",
+      "stage": "SAP_EXPORT",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "task_history",
+      "ts": "2025-08-17T07:00:35.055592Z",
+      "entity": "task",
+      "entity_id": "1",
+      "event": "done",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "end_time": "2025-08-17T07:00:35.055592",
+        "task_type": "dtln_psa",
+        "worker_id": 1,
+        "history_id": 1510,
+        "start_time": "2025-08-17T07:00:06.338625"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:35.231517Z",
+      "entity": "task",
+      "entity_id": "dtln_psa",
+      "event": "TASK_DONE",
+      "stage": null,
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:00:36.075921Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "IDLE",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 1
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:36.772088Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "idle"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:38.878879Z",
+      "entity": "task",
+      "entity_id": "kit_hdr",
+      "event": "TASK_CLAIMED",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "current_retry": 0
+      }
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:00:40.172272Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "BUSY",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 1
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:40.281155Z",
+      "entity": "task",
+      "entity_id": "fix_bins_sk_02",
+      "event": "STAGE_OK",
+      "stage": "SAP_EXPORT",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:40.437051Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "busy"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:40.632317Z",
+      "entity": "task",
+      "entity_id": "fix_bins_sk_02",
+      "event": "STAGE_ENTER",
+      "stage": "EXCEL_CLEANUP",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:40.785150Z",
+      "entity": "task",
+      "entity_id": "kit_hdr",
+      "event": "STAGE_ENTER",
+      "stage": "SAP_EXPORT",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:44.301900Z",
+      "entity": "task",
+      "entity_id": "kit_comp",
+      "event": "STAGE_OK",
+      "stage": "SAP_EXPORT",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:44.643169Z",
+      "entity": "task",
+      "entity_id": "kit_comp",
+      "event": "STAGE_ENTER",
+      "stage": "EXCEL_CLEANUP",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:45.233584Z",
+      "entity": "task",
+      "entity_id": "kit_comp",
+      "event": "STAGE_OK",
+      "stage": "EXCEL_CLEANUP",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:45.605818Z",
+      "entity": "task",
+      "entity_id": "kit_comp",
+      "event": "STAGE_ENTER",
+      "stage": "DATA_UPLOAD",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:46.328586Z",
+      "entity": "task",
+      "entity_id": "fix_bins_sk_02",
+      "event": "STAGE_OK",
+      "stage": "EXCEL_CLEANUP",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:46.699751Z",
+      "entity": "task",
+      "entity_id": "fix_bins_sk_02",
+      "event": "STAGE_ENTER",
+      "stage": "DATA_UPLOAD",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:48.514156Z",
+      "entity": "task",
+      "entity_id": "kit_hdr",
+      "event": "STAGE_OK",
+      "stage": "SAP_EXPORT",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:48.854718Z",
+      "entity": "task",
+      "entity_id": "kit_hdr",
+      "event": "STAGE_ENTER",
+      "stage": "EXCEL_CLEANUP",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:50.971959Z",
+      "entity": "task",
+      "entity_id": "kit_comp",
+      "event": "STAGE_OK",
+      "stage": "DATA_UPLOAD",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:51.146974Z",
+      "entity": "task",
+      "entity_id": "fix_bins_sk_02",
+      "event": "STAGE_OK",
+      "stage": "DATA_UPLOAD",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "task_history",
+      "ts": "2025-08-17T07:00:52.007212Z",
+      "entity": "task",
+      "entity_id": "3",
+      "event": "done",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "end_time": "2025-08-17T07:00:52.007212",
+        "task_type": "kit_comp",
+        "worker_id": 3,
+        "history_id": 1513,
+        "start_time": "2025-08-17T07:00:31.621871"
+      }
+    },
+    {
+      "source": "task_history",
+      "ts": "2025-08-17T07:00:52.185029Z",
+      "entity": "task",
+      "entity_id": "4",
+      "event": "done",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "end_time": "2025-08-17T07:00:52.185029",
+        "task_type": "fix_bins_sk_02",
+        "worker_id": 4,
+        "history_id": 1512,
+        "start_time": "2025-08-17T07:00:30.797374"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:52.186529Z",
+      "entity": "task",
+      "entity_id": "kit_comp",
+      "event": "TASK_DONE",
+      "stage": null,
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:52.360538Z",
+      "entity": "task",
+      "entity_id": "fix_bins_sk_02",
+      "event": "TASK_DONE",
+      "stage": null,
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:52.507841Z",
+      "entity": "task",
+      "entity_id": "kit_hdr",
+      "event": "STAGE_OK",
+      "stage": "EXCEL_CLEANUP",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:52.848119Z",
+      "entity": "task",
+      "entity_id": "kit_hdr",
+      "event": "STAGE_ENTER",
+      "stage": "DATA_UPLOAD",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:00:53.045082Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[3]",
+      "event": "IDLE",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 3
+      }
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:00:53.211145Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[4]",
+      "event": "IDLE",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 4
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:53.749294Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[3]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "idle"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:53.927416Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[4]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "idle"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:56.180177Z",
+      "entity": "task",
+      "entity_id": "kit_psa",
+      "event": "TASK_CLAIMED",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "current_retry": 0
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:57.247809Z",
+      "entity": "task",
+      "entity_id": "kit_hdr",
+      "event": "STAGE_OK",
+      "stage": "DATA_UPLOAD",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:00:57.491765Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[3]",
+      "event": "BUSY",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 3
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:57.745726Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[3]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "busy"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:57.747727Z",
+      "entity": "task",
+      "entity_id": "kitpsa_future",
+      "event": "TASK_CLAIMED",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "current_retry": 0
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:58.100673Z",
+      "entity": "task",
+      "entity_id": "kit_psa",
+      "event": "STAGE_ENTER",
+      "stage": "SAP_EXPORT",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "task_history",
+      "ts": "2025-08-17T07:00:58.319382Z",
+      "entity": "task",
+      "entity_id": "1",
+      "event": "done",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "end_time": "2025-08-17T07:00:58.319382",
+        "task_type": "kit_hdr",
+        "worker_id": 1,
+        "history_id": 1514,
+        "start_time": "2025-08-17T07:00:38.173447"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:58.492349Z",
+      "entity": "task",
+      "entity_id": "kit_hdr",
+      "event": "TASK_DONE",
+      "stage": null,
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:00:59.092965Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[4]",
+      "event": "BUSY",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 4
+      }
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:00:59.356753Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "IDLE",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 1
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:59.363211Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[4]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "busy"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:00:59.694251Z",
+      "entity": "task",
+      "entity_id": "kitpsa_future",
+      "event": "STAGE_ENTER",
+      "stage": "SAP_EXPORT",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:00.042420Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "idle"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:03.162456Z",
+      "entity": "task",
+      "entity_id": "line_definition",
+      "event": "TASK_CLAIMED",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "current_retry": 0
+      }
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:01:04.486687Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "BUSY",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 1
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:04.738080Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "busy"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:05.085259Z",
+      "entity": "task",
+      "entity_id": "line_definition",
+      "event": "STAGE_ENTER",
+      "stage": "SAP_EXPORT",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:06.598145Z",
+      "entity": "task",
+      "entity_id": "kit_psa",
+      "event": "STAGE_OK",
+      "stage": "SAP_EXPORT",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:06.947125Z",
+      "entity": "task",
+      "entity_id": "kit_psa",
+      "event": "STAGE_ENTER",
+      "stage": "EXCEL_CLEANUP",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:07.191448Z",
+      "entity": "task",
+      "entity_id": "kitpsa_future",
+      "event": "STAGE_OK",
+      "stage": "SAP_EXPORT",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:07.530312Z",
+      "entity": "task",
+      "entity_id": "kitpsa_future",
+      "event": "STAGE_ENTER",
+      "stage": "EXCEL_CLEANUP",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:10.891511Z",
+      "entity": "task",
+      "entity_id": "kitpsa_future",
+      "event": "STAGE_OK",
+      "stage": "EXCEL_CLEANUP",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:11.245121Z",
+      "entity": "task",
+      "entity_id": "kitpsa_future",
+      "event": "STAGE_ENTER",
+      "stage": "DATA_UPLOAD",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:12.810429Z",
+      "entity": "task",
+      "entity_id": "line_definition",
+      "event": "STAGE_OK",
+      "stage": "SAP_EXPORT",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:13.169429Z",
+      "entity": "task",
+      "entity_id": "line_definition",
+      "event": "STAGE_ENTER",
+      "stage": "EXCEL_CLEANUP",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:14.195787Z",
+      "entity": "task",
+      "entity_id": "line_definition",
+      "event": "STAGE_OK",
+      "stage": "EXCEL_CLEANUP",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:14.233837Z",
+      "entity": "task",
+      "entity_id": "kit_psa",
+      "event": "STAGE_OK",
+      "stage": "EXCEL_CLEANUP",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:14.535250Z",
+      "entity": "task",
+      "entity_id": "line_definition",
+      "event": "STAGE_ENTER",
+      "stage": "DATA_UPLOAD",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:14.571674Z",
+      "entity": "task",
+      "entity_id": "kit_psa",
+      "event": "STAGE_ENTER",
+      "stage": "DATA_UPLOAD",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:15.500411Z",
+      "entity": "task",
+      "entity_id": "kitpsa_future",
+      "event": "STAGE_OK",
+      "stage": "DATA_UPLOAD",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "task_history",
+      "ts": "2025-08-17T07:01:16.532862Z",
+      "entity": "task",
+      "entity_id": "4",
+      "event": "done",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "end_time": "2025-08-17T07:01:16.532862",
+        "task_type": "kitpsa_future",
+        "worker_id": 4,
+        "history_id": 1516,
+        "start_time": "2025-08-17T07:00:57.058835"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:16.699389Z",
+      "entity": "task",
+      "entity_id": "kitpsa_future",
+      "event": "TASK_DONE",
+      "stage": null,
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:01:17.570549Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[4]",
+      "event": "IDLE",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 4
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:18.255463Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[4]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "idle"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:18.845224Z",
+      "entity": "task",
+      "entity_id": "line_definition",
+      "event": "STAGE_OK",
+      "stage": "DATA_UPLOAD",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:18.858861Z",
+      "entity": "task",
+      "entity_id": "kit_psa",
+      "event": "STAGE_OK",
+      "stage": "DATA_UPLOAD",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "task_history",
+      "ts": "2025-08-17T07:01:19.857428Z",
+      "entity": "task",
+      "entity_id": "1",
+      "event": "done",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "end_time": "2025-08-17T07:01:19.857428",
+        "task_type": "line_definition",
+        "worker_id": 1,
+        "history_id": 1517,
+        "start_time": "2025-08-17T07:01:02.486329"
+      }
+    },
+    {
+      "source": "task_history",
+      "ts": "2025-08-17T07:01:19.905771Z",
+      "entity": "task",
+      "entity_id": "3",
+      "event": "done",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "end_time": "2025-08-17T07:01:19.905771",
+        "task_type": "kit_psa",
+        "worker_id": 3,
+        "history_id": 1515,
+        "start_time": "2025-08-17T07:00:55.49219"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:20.045023Z",
+      "entity": "task",
+      "entity_id": "line_definition",
+      "event": "TASK_DONE",
+      "stage": null,
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:20.084267Z",
+      "entity": "task",
+      "entity_id": "kit_psa",
+      "event": "TASK_DONE",
+      "stage": null,
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:20.706725Z",
+      "entity": "task",
+      "entity_id": "mult_pof",
+      "event": "TASK_CLAIMED",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "current_retry": 0
+      }
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:01:20.925030Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "IDLE",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 1
+      }
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:01:20.992249Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[3]",
+      "event": "IDLE",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 3
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:21.623636Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "idle"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:21.714436Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[3]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "idle"
+      }
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:01:22.046782Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[4]",
+      "event": "BUSY",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 4
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:22.309546Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[4]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "busy"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:22.656621Z",
+      "entity": "task",
+      "entity_id": "mult_pof",
+      "event": "STAGE_ENTER",
+      "stage": "SAP_EXPORT",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:24.084067Z",
+      "entity": "task",
+      "entity_id": "obom_master_data",
+      "event": "TASK_CLAIMED",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "current_retry": 0
+      }
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:01:25.399495Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "BUSY",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 1
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:25.650101Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "busy"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:25.998959Z",
+      "entity": "task",
+      "entity_id": "obom_master_data",
+      "event": "STAGE_ENTER",
+      "stage": "SAP_EXPORT",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:26.313781Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01",
+      "event": "TASK_CLAIMED",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "current_retry": 0
+      }
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:01:27.658244Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[3]",
+      "event": "BUSY",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 3
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:27.925750Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[3]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "busy"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:28.269158Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01",
+      "event": "STAGE_ENTER",
+      "stage": "SAP_EXPORT",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:30.896458Z",
+      "entity": "task",
+      "entity_id": "mult_pof",
+      "event": "STAGE_OK",
+      "stage": "SAP_EXPORT",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:31.260669Z",
+      "entity": "task",
+      "entity_id": "mult_pof",
+      "event": "STAGE_ENTER",
+      "stage": "EXCEL_CLEANUP",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:37.813150Z",
+      "entity": "task",
+      "entity_id": "mult_pof",
+      "event": "STAGE_OK",
+      "stage": "EXCEL_CLEANUP",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:38.169273Z",
+      "entity": "task",
+      "entity_id": "mult_pof",
+      "event": "STAGE_ENTER",
+      "stage": "DATA_UPLOAD",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:42.560690Z",
+      "entity": "task",
+      "entity_id": "mult_pof",
+      "event": "STAGE_OK",
+      "stage": "DATA_UPLOAD",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "task_history",
+      "ts": "2025-08-17T07:01:43.623490Z",
+      "entity": "task",
+      "entity_id": "4",
+      "event": "done",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "end_time": "2025-08-17T07:01:43.62349",
+        "task_type": "mult_pof",
+        "worker_id": 4,
+        "history_id": 1518,
+        "start_time": "2025-08-17T07:01:20.000628"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:43.807834Z",
+      "entity": "task",
+      "entity_id": "mult_pof",
+      "event": "TASK_DONE",
+      "stage": null,
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:01:44.762431Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[4]",
+      "event": "IDLE",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 4
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:45.518534Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[4]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "idle"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:48.740888Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1138",
+      "event": "TASK_CLAIMED",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "current_retry": 0
+      }
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:01:50.049989Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[4]",
+      "event": "BUSY",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 4
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:50.301333Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[4]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "busy"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:50.653190Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1138",
+      "event": "STAGE_ENTER",
+      "stage": "SAP_EXPORT",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:54.131242Z",
+      "entity": "task",
+      "entity_id": "fix_bins_sk_01",
+      "event": "STAGE_OK",
+      "stage": "SAP_EXPORT",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:54.485101Z",
+      "entity": "task",
+      "entity_id": "fix_bins_sk_01",
+      "event": "STAGE_ENTER",
+      "stage": "EXCEL_CLEANUP",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:58.143528Z",
+      "entity": "task",
+      "entity_id": "fix_bins_sk_01",
+      "event": "STAGE_OK",
+      "stage": "EXCEL_CLEANUP",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:01:58.484878Z",
+      "entity": "task",
+      "entity_id": "fix_bins_sk_01",
+      "event": "STAGE_ENTER",
+      "stage": "DATA_UPLOAD",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:00.322408Z",
+      "entity": "task",
+      "entity_id": "obom_master_data",
+      "event": "STAGE_OK",
+      "stage": "SAP_EXPORT",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:00.662237Z",
+      "entity": "task",
+      "entity_id": "obom_master_data",
+      "event": "STAGE_ENTER",
+      "stage": "EXCEL_CLEANUP",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:03.851359Z",
+      "entity": "task",
+      "entity_id": "fix_bins_sk_01",
+      "event": "STAGE_OK",
+      "stage": "DATA_UPLOAD",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:04.064026Z",
+      "entity": "task",
+      "entity_id": "obom_master_data",
+      "event": "STAGE_OK",
+      "stage": "EXCEL_CLEANUP",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:04.401005Z",
+      "entity": "task",
+      "entity_id": "obom_master_data",
+      "event": "STAGE_ENTER",
+      "stage": "DATA_UPLOAD",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "task_history",
+      "ts": "2025-08-17T07:02:04.910702Z",
+      "entity": "task",
+      "entity_id": "0",
+      "event": "done",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "end_time": "2025-08-17T07:02:04.910702",
+        "task_type": "fix_bins_sk_01",
+        "worker_id": 0,
+        "history_id": 1511,
+        "start_time": "2025-08-17T07:00:07.12993"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:05.094219Z",
+      "entity": "task",
+      "entity_id": "fix_bins_sk_01",
+      "event": "TASK_DONE",
+      "stage": null,
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:02:05.995611Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[0]",
+      "event": "IDLE",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 0
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:06.701320Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[0]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "idle"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:10.550525Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1138",
+      "event": "STAGE_OK",
+      "stage": "SAP_EXPORT",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:10.893677Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1138",
+      "event": "STAGE_ENTER",
+      "stage": "EXCEL_CLEANUP",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:14.407079Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1138",
+      "event": "STAGE_OK",
+      "stage": "EXCEL_CLEANUP",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:14.886001Z",
+      "entity": "task",
+      "entity_id": "obom_master_data",
+      "event": "STAGE_OK",
+      "stage": "DATA_UPLOAD",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:14.975469Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1138",
+      "event": "STAGE_ENTER",
+      "stage": "DATA_UPLOAD",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "task_history",
+      "ts": "2025-08-17T07:02:15.937654Z",
+      "entity": "task",
+      "entity_id": "1",
+      "event": "done",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "end_time": "2025-08-17T07:02:15.937654",
+        "task_type": "obom_master_data",
+        "worker_id": 1,
+        "history_id": 1519,
+        "start_time": "2025-08-17T07:01:23.398712"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:16.130702Z",
+      "entity": "task",
+      "entity_id": "obom_master_data",
+      "event": "TASK_DONE",
+      "stage": null,
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:02:16.999919Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "IDLE",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 1
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:17.692306Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "idle"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:19.417063Z",
+      "entity": "task",
+      "entity_id": "binsorting_sk_01",
+      "event": "STAGE_OK",
+      "stage": "SAP_EXPORT",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:19.786495Z",
+      "entity": "task",
+      "entity_id": "binsorting_sk_01",
+      "event": "STAGE_ENTER",
+      "stage": "EXCEL_CLEANUP",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:21.146037Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1138",
+      "event": "STAGE_OK",
+      "stage": "DATA_UPLOAD",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:21.150283Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1300",
+      "event": "TASK_CLAIMED",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "current_retry": 0
+      }
+    },
+    {
+      "source": "task_history",
+      "ts": "2025-08-17T07:02:22.164533Z",
+      "entity": "task",
+      "entity_id": "4",
+      "event": "done",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "end_time": "2025-08-17T07:02:22.164533",
+        "task_type": "physstock_sk_01_1138",
+        "worker_id": 4,
+        "history_id": 1521,
+        "start_time": "2025-08-17T07:01:48.04711"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:22.349040Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1138",
+      "event": "TASK_DONE",
+      "stage": null,
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:02:22.471462Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "BUSY",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 1
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:22.725684Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "busy"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:23.080242Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1300",
+      "event": "STAGE_ENTER",
+      "stage": "SAP_EXPORT",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:02:23.213518Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[4]",
+      "event": "IDLE",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 4
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:23.918373Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[4]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "idle"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:25.863846Z",
+      "entity": "task",
+      "entity_id": "binsorting_sk_01",
+      "event": "STAGE_OK",
+      "stage": "EXCEL_CLEANUP",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:26.218955Z",
+      "entity": "task",
+      "entity_id": "binsorting_sk_01",
+      "event": "STAGE_ENTER",
+      "stage": "DATA_UPLOAD",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:26.335373Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1330",
+      "event": "TASK_CLAIMED",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "current_retry": 0
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:27.328522Z",
+      "entity": "task",
+      "entity_id": "all_bins_sk_01",
+      "event": "STAGE_OK",
+      "stage": "SAP_EXPORT",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:02:27.650816Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[4]",
+      "event": "BUSY",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 4
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:27.677251Z",
+      "entity": "task",
+      "entity_id": "all_bins_sk_01",
+      "event": "STAGE_ENTER",
+      "stage": "EXCEL_CLEANUP",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:27.930131Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[4]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "busy"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:28.268322Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1330",
+      "event": "STAGE_ENTER",
+      "stage": "SAP_EXPORT",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:33.101251Z",
+      "entity": "task",
+      "entity_id": "all_bins_sk_01",
+      "event": "STAGE_OK",
+      "stage": "EXCEL_CLEANUP",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:33.444843Z",
+      "entity": "task",
+      "entity_id": "all_bins_sk_01",
+      "event": "STAGE_ENTER",
+      "stage": "DATA_UPLOAD",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:37.397256Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1340",
+      "event": "TASK_CLAIMED",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "current_retry": 0
+      }
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:02:38.709056Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[0]",
+      "event": "BUSY",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 0
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:38.993849Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[0]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "busy"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:39.350443Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1340",
+      "event": "STAGE_ENTER",
+      "stage": "SAP_EXPORT",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:51.254986Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1340",
+      "event": "STAGE_OK",
+      "stage": "SAP_EXPORT",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:51.605848Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1340",
+      "event": "STAGE_ENTER",
+      "stage": "EXCEL_CLEANUP",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:56.593651Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1340",
+      "event": "STAGE_OK",
+      "stage": "EXCEL_CLEANUP",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:56.926389Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1340",
+      "event": "STAGE_ENTER",
+      "stage": "DATA_UPLOAD",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:02:59.830559Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1300",
+      "event": "STAGE_OK",
+      "stage": "SAP_EXPORT",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:00.214629Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1300",
+      "event": "STAGE_ENTER",
+      "stage": "EXCEL_CLEANUP",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:03.566315Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1340",
+      "event": "STAGE_OK",
+      "stage": "DATA_UPLOAD",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "task_history",
+      "ts": "2025-08-17T07:03:04.621471Z",
+      "entity": "task",
+      "entity_id": "0",
+      "event": "done",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "end_time": "2025-08-17T07:03:04.621471",
+        "task_type": "physstock_sk_01_1340",
+        "worker_id": 0,
+        "history_id": 1525,
+        "start_time": "2025-08-17T07:02:36.705419"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:04.800301Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1340",
+      "event": "TASK_DONE",
+      "stage": null,
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:04.884665Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1300",
+      "event": "STAGE_OK",
+      "stage": "EXCEL_CLEANUP",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:05.254506Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1300",
+      "event": "STAGE_ENTER",
+      "stage": "DATA_UPLOAD",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:03:05.707721Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[0]",
+      "event": "IDLE",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 0
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:06.407744Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[0]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "idle"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:08.158549Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1350",
+      "event": "TASK_CLAIMED",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "current_retry": 0
+      }
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:03:09.496271Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[0]",
+      "event": "BUSY",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 0
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:09.755267Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[0]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "busy"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:10.122531Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1350",
+      "event": "STAGE_ENTER",
+      "stage": "SAP_EXPORT",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:18.111651Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1300",
+      "event": "STAGE_OK",
+      "stage": "DATA_UPLOAD",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "task_history",
+      "ts": "2025-08-17T07:03:20.735311Z",
+      "entity": "task",
+      "entity_id": "1",
+      "event": "done",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "end_time": "2025-08-17T07:03:20.735311",
+        "task_type": "physstock_sk_01_1300",
+        "worker_id": 1,
+        "history_id": 1523,
+        "start_time": "2025-08-17T07:02:20.130175"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:20.918563Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1300",
+      "event": "TASK_DONE",
+      "stage": null,
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:21.062796Z",
+      "entity": "task",
+      "entity_id": "binsorting_sk_01",
+      "event": "STAGE_OK",
+      "stage": "DATA_UPLOAD",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:03:21.827605Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "IDLE",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 1
+      }
+    },
+    {
+      "source": "task_history",
+      "ts": "2025-08-17T07:03:22.131932Z",
+      "entity": "task",
+      "entity_id": "2",
+      "event": "done",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "end_time": "2025-08-17T07:03:22.131932",
+        "task_type": "binsorting_sk_01",
+        "worker_id": 2,
+        "history_id": 1508,
+        "start_time": "2025-08-17T07:00:04.532753"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:22.307473Z",
+      "entity": "task",
+      "entity_id": "binsorting_sk_01",
+      "event": "TASK_DONE",
+      "stage": null,
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:22.520632Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "idle"
+      }
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:03:23.174526Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[2]",
+      "event": "IDLE",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 2
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:23.879476Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[2]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "idle"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:25.194682Z",
+      "entity": "task",
+      "entity_id": "all_bins_sk_01",
+      "event": "STAGE_OK",
+      "stage": "DATA_UPLOAD",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "task_history",
+      "ts": "2025-08-17T07:03:26.259818Z",
+      "entity": "task",
+      "entity_id": "5",
+      "event": "done",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "end_time": "2025-08-17T07:03:26.259818",
+        "task_type": "all_bins_sk_01",
+        "worker_id": 5,
+        "history_id": 1506,
+        "start_time": "2025-08-17T07:00:02.174866"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:26.441888Z",
+      "entity": "task",
+      "entity_id": "all_bins_sk_01",
+      "event": "TASK_DONE",
+      "stage": null,
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:26.521502Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1357",
+      "event": "TASK_CLAIMED",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "current_retry": 0
+      }
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:03:27.358714Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[5]",
+      "event": "IDLE",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 5
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:27.613002Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_2100",
+      "event": "TASK_CLAIMED",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "current_retry": 0
+      }
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:03:27.876585Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[2]",
+      "event": "BUSY",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 2
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:28.084904Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[5]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "idle"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:28.163415Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[2]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "busy"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:28.547096Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1357",
+      "event": "STAGE_ENTER",
+      "stage": "SAP_EXPORT",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:03:29.001451Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "BUSY",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 1
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:29.248149Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "busy"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:29.603491Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_2100",
+      "event": "STAGE_ENTER",
+      "stage": "SAP_EXPORT",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:30.213679Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_other_stock",
+      "event": "TASK_CLAIMED",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "current_retry": 0
+      }
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:03:31.518561Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[5]",
+      "event": "BUSY",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 5
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:31.771055Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[5]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "busy"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:32.129738Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_other_stock",
+      "event": "STAGE_ENTER",
+      "stage": "SAP_EXPORT",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:34.902694Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1350",
+      "event": "STAGE_OK",
+      "stage": "SAP_EXPORT",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:35.246984Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1350",
+      "event": "STAGE_ENTER",
+      "stage": "EXCEL_CLEANUP",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:40.691103Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1350",
+      "event": "STAGE_OK",
+      "stage": "EXCEL_CLEANUP",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:41.044861Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1350",
+      "event": "STAGE_ENTER",
+      "stage": "DATA_UPLOAD",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:47.137890Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1350",
+      "event": "STAGE_OK",
+      "stage": "DATA_UPLOAD",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "task_history",
+      "ts": "2025-08-17T07:03:48.168812Z",
+      "entity": "task",
+      "entity_id": "0",
+      "event": "done",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "end_time": "2025-08-17T07:03:48.168812",
+        "task_type": "physstock_sk_01_1350",
+        "worker_id": 0,
+        "history_id": 1526,
+        "start_time": "2025-08-17T07:03:07.4569"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:48.353551Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1350",
+      "event": "TASK_DONE",
+      "stage": null,
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:03:49.303059Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[0]",
+      "event": "IDLE",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 0
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:50.000691Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[0]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "idle"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:53.211130Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1357",
+      "event": "STAGE_OK",
+      "stage": "SAP_EXPORT",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:53.559440Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1357",
+      "event": "STAGE_ENTER",
+      "stage": "EXCEL_CLEANUP",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:53.821147Z",
+      "entity": "task",
+      "entity_id": "pmd_sk_01",
+      "event": "TASK_CLAIMED",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "current_retry": 0
+      }
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:03:55.131301Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[0]",
+      "event": "BUSY",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 0
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:55.427517Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[0]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "busy"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:55.764679Z",
+      "entity": "task",
+      "entity_id": "pmd_sk_01",
+      "event": "STAGE_ENTER",
+      "stage": "SAP_EXPORT",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:58.270877Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_2100",
+      "event": "STAGE_OK",
+      "stage": "SAP_EXPORT",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:58.624485Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_2100",
+      "event": "STAGE_ENTER",
+      "stage": "EXCEL_CLEANUP",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:59.327249Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_2100",
+      "event": "STAGE_OK",
+      "stage": "EXCEL_CLEANUP",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:59.444718Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1357",
+      "event": "STAGE_OK",
+      "stage": "EXCEL_CLEANUP",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:59.671198Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_2100",
+      "event": "STAGE_ENTER",
+      "stage": "DATA_UPLOAD",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:03:59.786997Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1357",
+      "event": "STAGE_ENTER",
+      "stage": "DATA_UPLOAD",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:07.004969Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01",
+      "event": "STAGE_OK",
+      "stage": "SAP_EXPORT",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:07.356900Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01",
+      "event": "STAGE_ENTER",
+      "stage": "EXCEL_CLEANUP",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:08.059619Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_2100",
+      "event": "STAGE_OK",
+      "stage": "DATA_UPLOAD",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:08.199889Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1357",
+      "event": "STAGE_OK",
+      "stage": "DATA_UPLOAD",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "task_history",
+      "ts": "2025-08-17T07:04:09.127728Z",
+      "entity": "task",
+      "entity_id": "1",
+      "event": "done",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "end_time": "2025-08-17T07:04:09.127728",
+        "task_type": "physstock_sk_01_2100",
+        "worker_id": 1,
+        "history_id": 1528,
+        "start_time": "2025-08-17T07:03:26.887329"
+      }
+    },
+    {
+      "source": "task_history",
+      "ts": "2025-08-17T07:04:09.248891Z",
+      "entity": "task",
+      "entity_id": "2",
+      "event": "done",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "end_time": "2025-08-17T07:04:09.248891",
+        "task_type": "physstock_sk_01_1357",
+        "worker_id": 2,
+        "history_id": 1527,
+        "start_time": "2025-08-17T07:03:25.793884"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:09.310958Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_2100",
+      "event": "TASK_DONE",
+      "stage": null,
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:09.433187Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1357",
+      "event": "TASK_DONE",
+      "stage": null,
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:04:10.174103Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "IDLE",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 1
+      }
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:04:10.305983Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[2]",
+      "event": "IDLE",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 2
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:10.859413Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "idle"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:10.991339Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[2]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "idle"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:12.828709Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01",
+      "event": "STAGE_OK",
+      "stage": "EXCEL_CLEANUP",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:13.163000Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01",
+      "event": "STAGE_ENTER",
+      "stage": "DATA_UPLOAD",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:14.005854Z",
+      "entity": "task",
+      "entity_id": "pmd_sk_02",
+      "event": "TASK_CLAIMED",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "current_retry": 0
+      }
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:04:15.299971Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "BUSY",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 1
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:15.524322Z",
+      "entity": "task",
+      "entity_id": "psa_bins",
+      "event": "TASK_CLAIMED",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "current_retry": 0
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:15.573111Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "busy"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:15.908651Z",
+      "entity": "task",
+      "entity_id": "pmd_sk_02",
+      "event": "STAGE_ENTER",
+      "stage": "SAP_EXPORT",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:04:16.820276Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[2]",
+      "event": "BUSY",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 2
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:17.084277Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[2]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "busy"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:17.429801Z",
+      "entity": "task",
+      "entity_id": "psa_bins",
+      "event": "STAGE_ENTER",
+      "stage": "SAP_EXPORT",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:22.364755Z",
+      "entity": "task",
+      "entity_id": "pmd_sk_02",
+      "event": "STAGE_OK",
+      "stage": "SAP_EXPORT",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:22.704443Z",
+      "entity": "task",
+      "entity_id": "pmd_sk_02",
+      "event": "STAGE_ENTER",
+      "stage": "EXCEL_CLEANUP",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:28.518675Z",
+      "entity": "task",
+      "entity_id": "pmd_sk_02",
+      "event": "STAGE_OK",
+      "stage": "EXCEL_CLEANUP",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:29.015060Z",
+      "entity": "task",
+      "entity_id": "pmd_sk_02",
+      "event": "STAGE_ENTER",
+      "stage": "DATA_UPLOAD",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:33.490071Z",
+      "entity": "task",
+      "entity_id": "pmd_sk_02",
+      "event": "STAGE_OK",
+      "stage": "DATA_UPLOAD",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "task_history",
+      "ts": "2025-08-17T07:04:34.528823Z",
+      "entity": "task",
+      "entity_id": "1",
+      "event": "done",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "end_time": "2025-08-17T07:04:34.528823",
+        "task_type": "pmd_sk_02",
+        "worker_id": 1,
+        "history_id": 1531,
+        "start_time": "2025-08-17T07:04:13.324718"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:34.705420Z",
+      "entity": "task",
+      "entity_id": "pmd_sk_02",
+      "event": "TASK_DONE",
+      "stage": null,
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:04:36.267448Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "IDLE",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 1
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:36.613107Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01",
+      "event": "STAGE_OK",
+      "stage": "DATA_UPLOAD",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:36.953519Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "idle"
+      }
+    },
+    {
+      "source": "task_history",
+      "ts": "2025-08-17T07:04:37.655630Z",
+      "entity": "task",
+      "entity_id": "3",
+      "event": "done",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "end_time": "2025-08-17T07:04:37.65563",
+        "task_type": "physstock_sk_01",
+        "worker_id": 3,
+        "history_id": 1520,
+        "start_time": "2025-08-17T07:01:25.602571"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:37.833920Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01",
+      "event": "TASK_DONE",
+      "stage": null,
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:04:38.714449Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[3]",
+      "event": "IDLE",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 3
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:39.393794Z",
+      "entity": "task",
+      "entity_id": "psastage_future",
+      "event": "TASK_CLAIMED",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "current_retry": 0
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:39.456024Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[3]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "idle"
+      }
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:04:40.732800Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "BUSY",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 1
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:40.998388Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "busy"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:41.343486Z",
+      "entity": "task",
+      "entity_id": "psastage_future",
+      "event": "STAGE_ENTER",
+      "stage": "SAP_EXPORT",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:49.737849Z",
+      "entity": "task",
+      "entity_id": "workstation_definition",
+      "event": "TASK_CLAIMED",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "current_retry": 0
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:50.204475Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_other_stock",
+      "event": "STAGE_OK",
+      "stage": "SAP_EXPORT",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:50.555216Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_other_stock",
+      "event": "STAGE_ENTER",
+      "stage": "EXCEL_CLEANUP",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:50.951299Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_other_stock",
+      "event": "STAGE_OK",
+      "stage": "EXCEL_CLEANUP",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:04:51.045339Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[3]",
+      "event": "BUSY",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 3
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:51.314823Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[3]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "busy"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:51.314823Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_other_stock",
+      "event": "STAGE_ENTER",
+      "stage": "DATA_UPLOAD",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:04:51.652738Z",
+      "entity": "task",
+      "entity_id": "workstation_definition",
+      "event": "STAGE_ENTER",
+      "stage": "SAP_EXPORT",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:05:00.231152Z",
+      "entity": "task",
+      "entity_id": "workstation_definition",
+      "event": "STAGE_OK",
+      "stage": "SAP_EXPORT",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:05:00.584519Z",
+      "entity": "task",
+      "entity_id": "workstation_definition",
+      "event": "STAGE_ENTER",
+      "stage": "EXCEL_CLEANUP",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:05:04.107689Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_other_stock",
+      "event": "STAGE_OK",
+      "stage": "DATA_UPLOAD",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "task_history",
+      "ts": "2025-08-17T07:05:05.162371Z",
+      "entity": "task",
+      "entity_id": "5",
+      "event": "done",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "end_time": "2025-08-17T07:05:05.162371",
+        "task_type": "physstock_sk_01_other_stock",
+        "worker_id": 5,
+        "history_id": 1529,
+        "start_time": "2025-08-17T07:03:29.517405"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:05:05.342906Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_other_stock",
+      "event": "TASK_DONE",
+      "stage": null,
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:05:05.812354Z",
+      "entity": "task",
+      "entity_id": "workstation_definition",
+      "event": "STAGE_OK",
+      "stage": "EXCEL_CLEANUP",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:05:06.163896Z",
+      "entity": "task",
+      "entity_id": "workstation_definition",
+      "event": "STAGE_ENTER",
+      "stage": "DATA_UPLOAD",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:05:06.213277Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[5]",
+      "event": "IDLE",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 5
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:05:06.897123Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[5]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "idle"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:05:10.623670Z",
+      "entity": "task",
+      "entity_id": "workstation_definition",
+      "event": "STAGE_OK",
+      "stage": "DATA_UPLOAD",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "task_history",
+      "ts": "2025-08-17T07:05:11.684546Z",
+      "entity": "task",
+      "entity_id": "3",
+      "event": "done",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "end_time": "2025-08-17T07:05:11.684546",
+        "task_type": "workstation_definition",
+        "worker_id": 3,
+        "history_id": 1534,
+        "start_time": "2025-08-17T07:04:49.04694"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:05:11.863130Z",
+      "entity": "task",
+      "entity_id": "workstation_definition",
+      "event": "TASK_DONE",
+      "stage": null,
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:05:12.746032Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[3]",
+      "event": "IDLE",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 3
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:05:13.446008Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[3]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "idle"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:05:35.074523Z",
+      "entity": "task",
+      "entity_id": "psastage_future",
+      "event": "STAGE_OK",
+      "stage": "SAP_EXPORT",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:05:35.423219Z",
+      "entity": "task",
+      "entity_id": "psastage_future",
+      "event": "STAGE_ENTER",
+      "stage": "EXCEL_CLEANUP",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:05:41.304661Z",
+      "entity": "task",
+      "entity_id": "psastage_future",
+      "event": "STAGE_OK",
+      "stage": "EXCEL_CLEANUP",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:05:41.642308Z",
+      "entity": "task",
+      "entity_id": "psastage_future",
+      "event": "STAGE_ENTER",
+      "stage": "DATA_UPLOAD",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:05:50.055944Z",
+      "entity": "task",
+      "entity_id": "psastage_future",
+      "event": "STAGE_OK",
+      "stage": "DATA_UPLOAD",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "task_history",
+      "ts": "2025-08-17T07:05:51.087995Z",
+      "entity": "task",
+      "entity_id": "1",
+      "event": "done",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "end_time": "2025-08-17T07:05:51.087995",
+        "task_type": "psastage_future",
+        "worker_id": 1,
+        "history_id": 1533,
+        "start_time": "2025-08-17T07:04:38.710962"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:05:51.261210Z",
+      "entity": "task",
+      "entity_id": "psastage_future",
+      "event": "TASK_DONE",
+      "stage": null,
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:05:52.159798Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "IDLE",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 1
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:05:52.889440Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[1]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "idle"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:06:00.041909Z",
+      "entity": "task",
+      "entity_id": "psa_bins",
+      "event": "STAGE_OK",
+      "stage": "SAP_EXPORT",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:06:00.387971Z",
+      "entity": "task",
+      "entity_id": "psa_bins",
+      "event": "STAGE_ENTER",
+      "stage": "EXCEL_CLEANUP",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:06:05.460423Z",
+      "entity": "task",
+      "entity_id": "psa_bins",
+      "event": "STAGE_OK",
+      "stage": "EXCEL_CLEANUP",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:06:05.797858Z",
+      "entity": "task",
+      "entity_id": "psa_bins",
+      "event": "STAGE_ENTER",
+      "stage": "DATA_UPLOAD",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:06:11.053628Z",
+      "entity": "task",
+      "entity_id": "psa_bins",
+      "event": "STAGE_OK",
+      "stage": "DATA_UPLOAD",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "task_history",
+      "ts": "2025-08-17T07:06:12.129318Z",
+      "entity": "task",
+      "entity_id": "2",
+      "event": "done",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "end_time": "2025-08-17T07:06:12.129318",
+        "task_type": "psa_bins",
+        "worker_id": 2,
+        "history_id": 1532,
+        "start_time": "2025-08-17T07:04:14.821028"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:06:12.315602Z",
+      "entity": "task",
+      "entity_id": "psa_bins",
+      "event": "TASK_DONE",
+      "stage": null,
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:06:13.217654Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[2]",
+      "event": "IDLE",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 2
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:06:13.913149Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[2]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "idle"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:07:45.714505Z",
+      "entity": "task",
+      "entity_id": "pmd_sk_01",
+      "event": "STAGE_OK",
+      "stage": "SAP_EXPORT",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:07:46.081967Z",
+      "entity": "task",
+      "entity_id": "pmd_sk_01",
+      "event": "STAGE_ENTER",
+      "stage": "EXCEL_CLEANUP",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:07:51.151083Z",
+      "entity": "task",
+      "entity_id": "pmd_sk_01",
+      "event": "STAGE_OK",
+      "stage": "EXCEL_CLEANUP",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:07:51.489055Z",
+      "entity": "task",
+      "entity_id": "pmd_sk_01",
+      "event": "STAGE_ENTER",
+      "stage": "DATA_UPLOAD",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:08:07.931968Z",
+      "entity": "task",
+      "entity_id": "pmd_sk_01",
+      "event": "STAGE_OK",
+      "stage": "DATA_UPLOAD",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "task_history",
+      "ts": "2025-08-17T07:08:09.040364Z",
+      "entity": "task",
+      "entity_id": "0",
+      "event": "done",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "end_time": "2025-08-17T07:08:09.040364",
+        "task_type": "pmd_sk_01",
+        "worker_id": 0,
+        "history_id": 1530,
+        "start_time": "2025-08-17T07:03:53.12739"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:08:09.222320Z",
+      "entity": "task",
+      "entity_id": "pmd_sk_01",
+      "event": "TASK_DONE",
+      "stage": null,
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:08:10.131585Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[0]",
+      "event": "IDLE",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 0
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:08:10.841283Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[0]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "idle"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:20:49.490663Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1330",
+      "event": "STAGE_OK",
+      "stage": "SAP_EXPORT",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:20:49.821373Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1330",
+      "event": "STAGE_ENTER",
+      "stage": "EXCEL_CLEANUP",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:20:54.164676Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1330",
+      "event": "STAGE_OK",
+      "stage": "EXCEL_CLEANUP",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:20:54.521931Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1330",
+      "event": "STAGE_ENTER",
+      "stage": "DATA_UPLOAD",
+      "status": "info",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:21:00.667169Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1330",
+      "event": "STAGE_OK",
+      "stage": "DATA_UPLOAD",
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "task_history",
+      "ts": "2025-08-17T07:21:02.078446Z",
+      "entity": "task",
+      "entity_id": "4",
+      "event": "done",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "end_time": "2025-08-17T07:21:02.078446",
+        "task_type": "physstock_sk_01_1330",
+        "worker_id": 4,
+        "history_id": 1524,
+        "start_time": "2025-08-17T07:02:25.648312"
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:21:02.244465Z",
+      "entity": "task",
+      "entity_id": "physstock_sk_01_1330",
+      "event": "TASK_DONE",
+      "stage": null,
+      "status": "ok",
+      "message": null,
+      "payload": null
+    },
+    {
+      "source": "session_history",
+      "ts": "2025-08-17T07:21:03.166400Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[4]",
+      "event": "IDLE",
+      "stage": null,
+      "status": null,
+      "message": null,
+      "payload": {
+        "worker_id": 4
+      }
+    },
+    {
+      "source": "audit_events",
+      "ts": "2025-08-17T07:21:03.897852Z",
+      "entity": "session",
+      "entity_id": "/app/con[0]/ses[4]",
+      "event": "SESSION_STATUS",
+      "stage": null,
+      "status": "info",
+      "message": null,
+      "payload": {
+        "session_status": "idle"
+      }
+    }
+  ]
+}

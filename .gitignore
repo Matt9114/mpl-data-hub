@@ -1,0 +1,28 @@
+# Node / Nuxt
+node_modules/
+.nuxt/
+.nitro/
+.output/
+.vite/
+dist/
+.cache/
+.temp/
+coverage/
+*.log
+logs/
+
+# Env
+.env
+.env.*.local
+!.env.example
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.eslintcache
+
+# Misc
+pnpm-debug.log*
+.dependencygraph
