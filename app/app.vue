@@ -6,7 +6,7 @@
 
     <div v-else>
       <NuxtLayout>
-        <NuxtPage />y
+        <NuxtPage />
       </NuxtLayout>
     </div>
 
